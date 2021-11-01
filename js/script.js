@@ -266,23 +266,3 @@ for (let i = 0; i < activitiescheckbox.length; i++) {
 };   
 
 
-
-
-
-
-// // const themeJS = design.options[1].value;
-// //     const themeJsPun = design.options[2].value;
-// //     const cornflowerBlue = color.options[1].value;
-// //     const darkslategrey = color.options[2].value;
-// //     const gold = color.options[3].value;
-// //     const tomato = color.options[4].value;
-// //     const steelBlue = color.options[5].value;
-
-//          //shirtColors.disable = false;
-//             // if (eventTarget.options[1].value){
-//         //     let attr = shirtColors.getAttribute("data-theme");
-//         //     console.log(attr);
-//             // color.children[2]
-//             // tomato.style.display = "none";
-//             // steelBlue.style.display = "none";
-//             // dimGrey.style.display = "none";
