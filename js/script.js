@@ -87,13 +87,17 @@ total.textContent = `Total$${cost}`;
 
 //  PAYMENT INFO SECTION    //
 const payment = document.getElementById("payment");
+const creditCardSelected = payment.querySelector('option[value="credit-card"]');
+creditCardSelected.selected = true; //selecting credit card to be shwon first in payment box
 const creditCard = document.getElementById("credit-card");
 const paypal = document.getElementById("paypal");
 const bitcoin = document.getElementById("bitcoin");
 //Hiding paypal and bitcoin
 paypal.style.display = "none";
 bitcoin.style.display = "none";
-creditCard.style.display = "none";
+creditCard.style.display = "block";
+
+
 
 payment.addEventListener("click", (e) =>{
     const eventTarget = e.target;
